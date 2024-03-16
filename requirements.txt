@@ -4,5 +4,6 @@ rembg
 pillow
 numpy
 requests
+python-multipart
 transformers
 uvicorn
