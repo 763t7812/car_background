@@ -23,7 +23,8 @@ app.add_middleware(
 )
 
 # Github access token
-g = Github('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')
+github_token = os.environ.get('git_key')
+g = Github(github_token)
 
 #getting the repository to upload images
 repo = g.get_repo('763t7812/car_background')
