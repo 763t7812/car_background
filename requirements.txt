@@ -1,0 +1,7 @@
+fastapi
+PyGithub
+rembg
+pillow
+numpy
+requests
+transformers
